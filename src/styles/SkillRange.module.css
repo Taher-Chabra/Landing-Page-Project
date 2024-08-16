@@ -1,0 +1,41 @@
+.label {
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
+.range-container {
+   position: relative;
+   width: 95%;
+}
+
+.range {
+   -webkit-appearance: none;
+   appearance: none;
+   width: inherit;
+   height: 0.5rem;
+   border-radius: 0.5rem;
+   background: #EDECEC;
+   outline: none;
+}
+
+.range::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   width: 1.3rem;
+   height: 1.3rem;
+   background-color: #EDECEC;
+   border: 2px solid var(--orange-accent);
+   border-radius: 50%;
+   box-shadow: 0px 4px 7px 0px #00000033;
+   position: relative;
+   z-index: 2;
+}
+
+.filled-track {
+   max-width: 95%;
+   height: 0.5rem;
+   background: var(--orange-accent);
+   border-radius: 0.5rem;
+   position: absolute;
+   top: 40%;
+   left: 0;
+}

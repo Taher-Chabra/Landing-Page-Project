@@ -1,0 +1,20 @@
+.card-body {
+   background-color: var(--grey-accent);
+   border-radius: 0.5rem;
+   padding: 2rem 0.6rem;
+   color: #000;
+}
+
+.card-icon {
+   width: fit-content;
+   height: 3rem;
+}
+
+.card-role {
+   line-height: 2rem;
+}
+
+.card-desc {
+   padding-top: 0.3rem;
+   font-size: 0.8rem;
+}

@@ -1,0 +1,25 @@
+.services-main {
+   margin-top: 4rem;
+   width: 100%;
+}
+
+.service-info {
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.service-heading {
+   font-weight: 600;
+   font-size: 2.3rem;
+   font-weight: 600;
+   line-height: 4rem;
+   letter-spacing: 0.03em;  
+}
+
+.service-cards {
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 1.2rem;
+}

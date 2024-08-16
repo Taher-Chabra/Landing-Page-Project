@@ -1,0 +1,112 @@
+.hero-main {
+  width: 100%;
+  margin-top: 4.7rem;
+  display: flex;
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 7rem;
+}
+
+.info-greet {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.info-name {
+  font-weight: 600;
+  color: var(--orange-accent);
+  font-size: 1.2rem;
+}
+
+.info-role {
+  line-height: 3.1rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.designer {
+  margin-top: -20rem;
+  padding-left: 7.4rem;
+}
+
+.info-text {
+  text-align: justify;
+  margin: 1.2rem 0;
+  font-size: 1rem;
+}
+
+.hire-btn {
+  text-decoration: none;
+  background-color: var(--orange-accent);
+  color: #fff;
+  width: fit-content;
+  font-size: 0.9rem;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.person-socials {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+
+.person-avatar {
+  margin: 3.5rem 0 1.2rem 0;
+}
+
+.person-wrapper {
+  position: relative;
+  width: fit-content;
+  padding: 0.2rem;
+  background: linear-gradient(182.68deg, #dddcdc -0.48%, #FF8233 78.41%);
+  border-radius: 50%;
+}
+
+.person-container {
+  position: relative;
+  box-shadow: 0 .2rem .2rem 0 #00000078 inset;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.person-img {
+  position: absolute;
+  top: -25%;
+}
+
+.person-img-crop {
+  position: absolute;
+  top: 0;
+  transform: translateY(-82%);
+  height: 5rem;
+  overflow: hidden;
+}
+
+.person-mask {
+  position: absolute;
+  top: 0;
+  width: 12rem;
+  height: 2.5rem;
+  background: #FD6F0099;
+  transform: translate(20%, -47%);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-links {
+  text-decoration: none;
+  color: var(--foreground-clr);
+}
+
+

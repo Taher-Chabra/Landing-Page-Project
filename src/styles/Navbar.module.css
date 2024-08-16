@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+   width: 100%;
+   margin-top: 1.7rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+}
+
+.logo {
+   font-weight: 700;
+   font-size: 1.5rem;
+   display: flex;
+   align-items: center;
+}
+
+.icon {
+   font-family: 'freehand';
+   font-size: 2rem;
+   font-weight: 400;
+   width: 2.4rem;
+   height: 2.4rem;
+   color: var(--background-clr);
+   background-color: var(--orange-accent);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: .4rem;
+   margin-right: 0.563rem;
+}
+
+.logo .name {
+   font-family: 'Montserrat';
+   font-weight: 700;
+}
+
+.logo .letters {
+   font-weight: 400;
+}
+
+.navigate {
+   display: flex;
+   align-items: center;
+   font-size: 0.95rem;
+}
+
+.nav-links {
+   margin-right: 0.563rem;
+}
+
+.nav-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   width: 30.43rem;
+}
+
+.dwnld-btn {
+   background-color: var(--orange-accent);
+   text-decoration: none;
+   border-radius: 0.21rem;
+   padding: 0.5rem;
+   font-weight: 400;
+   font-family: inherit;
+   color: #fff;
+}
+
