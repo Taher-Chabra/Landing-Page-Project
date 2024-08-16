@@ -8,9 +8,9 @@ function TestimonialCard({ image, testimonial, name, designation }) {
       </div>
 
       <div className={styles['testimonial-text']}>
-         <span>"</span>
+         <span>&ldquo;</span>
          <p>{testimonial}</p>
-         <span>"</span>
+         <span>&rdquo;</span>
          <div>
             <span>{name}</span>
             <span>{designation}</span>
