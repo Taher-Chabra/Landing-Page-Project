@@ -7,7 +7,7 @@
   --footer-dark-accent: rgba(84, 84, 84, 1);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-clr: rgb(255, 255, 255);
     --background-clr: rgba(30, 30, 30, 1);
