@@ -1,4 +1,5 @@
 import styles from '@/styles/Testimonials.module.css'
+import TestimonialCardCarousal from './CardCarousel'
 
 function Testimonials() {
   return (
@@ -13,7 +14,7 @@ function Testimonials() {
       </div>
 
       <div className={styles['testimonial-cards']}>
-         {/*  */}
+         <TestimonialCardCarousal />
       </div>
     </div>
   )

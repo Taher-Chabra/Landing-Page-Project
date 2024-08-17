@@ -28,12 +28,14 @@ body {
 }
 
 html {
-  color-scheme: 0;
+  color-scheme: light dark;
+  display: flex;
+  justify-content: center;
 }
 
 body {
   background-color: var(--background-clr);
   color: var(--foreground-clr);
   width: 70%;
-  margin: 0 auto;
+  overflow-x: hidden;
 }

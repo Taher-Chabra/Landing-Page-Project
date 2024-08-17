@@ -5,28 +5,28 @@ import person2 from '../../public/Testimonial-assets/testimony2.png'
 export const testimonialData = [
    {
       id: 1,
-      img: <Image src={person1}/>,
+      img: <Image src={person1} width={150} height={150} alt="Person 1 image"/>,
       testimonial: "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
       name: "Name",
       designation: "CEO"
    },
    {
       id: 2,
-      img: <Image src={person2}/>,
+      img: <Image src={person2} width={150} height={150} alt="Person 1 image"/>,
       testimonial: "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
       name: "Name",
       designation: "CEO"
    },
    {
       id: 3,
-      img: <Image src={person2}/>,
+      img: <Image src={person1} width={150} height={150} alt="Person 1 image"/>,
       testimonial: "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
       name: "Name",
       designation: "CEO"
    },
    {
       id: 4,
-      img: <Image src={person1}/>,
+      img: <Image src={person2} width={150} height={150} alt="Person 1 image"/>,
       testimonial: "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
       name: "Name",
       designation: "CEO"

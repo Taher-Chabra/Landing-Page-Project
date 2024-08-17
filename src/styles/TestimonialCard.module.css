@@ -1,0 +1,48 @@
+.card-body {
+   background-color: var(--grey-accent);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 50%;
+   border-radius: 0.5rem;
+   padding: 1rem 2rem;
+   /* margin: 0 auto; */
+}
+
+.card-text {
+   font-size: 0.85rem;
+   width: 70%;
+   text-align: justify;
+   margin: 1rem 0;
+   position: relative;
+}
+
+.card-text p {
+   color: rgba(66, 66, 66, 1);
+}
+
+.card-lquote,
+.card-rquote {
+   color: var(--orange-accent);
+   font-size: 2rem;
+   position: absolute;
+}
+
+.card-lquote {
+   top: -20%;
+   left: -3%;
+}
+
+.card-rquote {
+   bottom: 10%;
+   right: 32%;
+}
+
+.card-name {
+   font-weight: 500;
+   font-size: 1rem;
+}
+
+.card-designation {
+   font-size: 0.8rem;
+}
