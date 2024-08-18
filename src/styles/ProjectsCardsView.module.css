@@ -1,0 +1,10 @@
+.project-content {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 2rem;
+}
+
+.no-project-content {
+   text-align: center;
+   color: #999;
+}

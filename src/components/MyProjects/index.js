@@ -1,4 +1,5 @@
 import styles from '@/styles/Projects.module.css'
+import ProjectsTabs from './ProjectsTabs'
 
 function Projects() {
   return (
@@ -13,16 +14,7 @@ function Projects() {
       </div>
 
       <div className={styles['projects-view']}>
-        <div className={styles['view-tabs']}>
-          <button>All</button>
-          <button>UI/UX</button>
-          <button>WebDesign</button>
-          <button>App Design</button>
-          <button>Graphic Design</button>
-        </div>
-        <div className={styles['view-cards']}>
-
-        </div>
+        <ProjectsTabs />
       </div>
     </div>
   )

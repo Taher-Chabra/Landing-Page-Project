@@ -1,0 +1,27 @@
+.card-body {
+   background-color: #FFEBDB;
+   border-radius: 0.8rem;
+   display: flex;
+   justify-content: center;
+   height: fit-content;
+}
+
+.card-img-container {
+   margin-left: 3.5rem;
+}
+
+.card-img-big {
+   position: relative;
+}
+
+.card-img-small {
+   position: absolute;
+   z-index: 1;
+   bottom: -2px;
+   transform: translateX(-30%);
+}
+
+.img {
+   margin: 0;
+   padding: 0;
+}
