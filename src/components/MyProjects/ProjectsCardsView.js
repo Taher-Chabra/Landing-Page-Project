@@ -13,9 +13,24 @@ function ProjectsCardsView({ category }) {
       {
         (category === "all" || category === 'web')?
         <div className={styles['project-content']}>
-          <ProjectCard imgBig={design1} imgSmall={design1Small}/>
-          <ProjectCard imgBig={design2} imgSmall={design2Samll}/>
-          <ProjectCard imgBig={design3} imgSmall={design3Small}/>
+          <ProjectCard 
+            imgBig={design1} 
+            imgSmall={design1Small}
+            category='Web Design'
+            title="AirCalling Landing Page Design"
+          />
+          <ProjectCard 
+            imgBig={design2} 
+            imgSmall={design2Samll}
+            category='Web Design'
+            title="Business Landing Page Design"
+          />
+          <ProjectCard 
+            imgBig={design3} 
+            imgSmall={design3Small}
+            category='Web Design'
+            title="Ecom Web Page Design"
+          />
         </div> 
         :
         <div className={styles['no-project-content']}>

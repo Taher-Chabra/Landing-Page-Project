@@ -1,13 +1,14 @@
 .card-body {
-   background-color: #FFEBDB;
-   border-radius: 0.8rem;
-   display: flex;
-   justify-content: center;
-   height: fit-content;
+   
+   
 }
 
 .card-img-container {
-   margin-left: 3.5rem;
+   display: flex;
+   justify-content: center;
+   background-color: hsl(27, 100%, 93%);
+   padding-left: 3.5rem;
+   border-radius: 0.8rem;
 }
 
 .card-img-big {
@@ -24,4 +25,18 @@
 .img {
    margin: 0;
    padding: 0;
+}
+
+.card-details {
+   margin-top: 1rem;
+}
+
+.details-category {
+   color: var(--orange-accent);
+   font-size: 0.75rem;
+}
+
+.details-title {
+   font-weight: 700;
+   line-height: 2rem;
 }

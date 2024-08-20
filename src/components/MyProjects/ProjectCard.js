@@ -1,7 +1,7 @@
 import styles from '@/styles/ProjectCard.module.css'
 import Image from 'next/image'
 
-function ProjectCard({ imgBig, imgSmall}) {
+function ProjectCard({ imgBig, imgSmall, category, title }) {
   return (
      <div className={styles['card-body']}>
       <div className={styles['card-img-container']}>
@@ -23,6 +23,15 @@ function ProjectCard({ imgBig, imgSmall}) {
                />
             </div>
          </div>
+      </div>
+
+      <div className={styles["card-details"]}>
+         <span className={styles["details-category"]}>
+            {category}
+         </span>
+         <p className={styles["details-title"]}>
+            {title}
+         </p>
       </div>
    </div>
   )

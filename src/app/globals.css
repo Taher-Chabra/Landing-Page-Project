@@ -1,10 +1,10 @@
 :root {
   --foreground-clr: rgb(0, 0, 0);
   --background-clr: rgb(255, 255, 255);
-  --orange-accent: rgba(253, 111, 0, 1);
-  --grey-accent: rgba(248, 248, 248, 1);
   --footer-grey-accent: rgba(248, 248, 248, 1);
   --footer-dark-accent: rgba(84, 84, 84, 1);
+  --orange-accent: rgba(253, 111, 0, 1);
+  --grey-accent: rgba(248, 248, 248, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,7 +28,7 @@ body {
 }
 
 html {
-  color-scheme: light dark;
+  color-scheme: light;
   display: flex;
   justify-content: center;
 }
