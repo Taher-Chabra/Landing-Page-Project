@@ -3,7 +3,7 @@ import TestimonialCardCarousal from './CardCarousel'
 
 function Testimonials() {
   return (
-    <div className={styles['testimonial-main']}>
+    <div className={styles['testimonial-main']} id="Testimonials">
       <div className={styles['testimonial-text']}>
          <h1 className={styles['testimonial-heading']}>
             Testimonials

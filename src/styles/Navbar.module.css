@@ -58,6 +58,16 @@
    width: 30.43rem;
 }
 
+.nav-list a {
+   text-decoration: none;
+   color: var(--foreground-clr);
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+   scale: 1.05;
+}
+
 .dwnld-btn {
    background-color: var(--orange-accent);
    text-decoration: none;

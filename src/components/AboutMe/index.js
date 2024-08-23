@@ -6,7 +6,7 @@ import personImgCrp from "../../../public/About-assets/image2-cropped.png"
 
 function AboutMe() {
   return (
-    <div className={styles['about-main']}>
+    <div className={styles['about-main']} id="About">
       <div className={styles['about-avatar']}>
         <div className={styles["person-avatar"]}>
           <div className={styles["person-wrapper"]}>

@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <div className={styles["hero-main"]}>
+    <div className={styles["hero-main"]} id="Hero">
       <div className={styles["my-info"]}>
         <div>
           <span className={styles["info-greet"]}>Hi I am</span>

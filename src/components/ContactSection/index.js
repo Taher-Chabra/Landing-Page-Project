@@ -2,7 +2,7 @@ import styles from "@/styles/Contact.module.css";
 
 function ContactMe() {
   return (
-    <div className={styles["contact-main"]}>
+    <div className={styles["contact-main"]} id="Contact">
       <div className={styles["contact-text"]}>
          <h1 className={styles["contact-heading"]}>
             Lets Design Together

@@ -5,7 +5,7 @@ import Cards from './Cards'
 function Services() {
 
   return (
-   <div className={styles['services-main']}>
+   <div className={styles['services-main']} id="Services">
       <div className={styles['service-info']}>
          <h1 className={styles['service-heading']}>
             Services

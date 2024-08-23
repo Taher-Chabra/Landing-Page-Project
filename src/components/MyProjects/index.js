@@ -3,7 +3,7 @@ import ProjectsTabs from './ProjectsTabs'
 
 function Projects() {
   return (
-    <div className={styles['projects-main']}>
+    <div className={styles['projects-main']} id="Projects">
       <div className={styles['project-text']}>
         <h1 className={styles['project-heading']}>
             My Projects
